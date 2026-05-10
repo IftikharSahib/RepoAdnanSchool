@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    height: max-content;
+    background-color: aqua;
+
+
+}
+@font-face {
+  font-family: 'Noto Nastaliq Urdu';
+  src: url('fonts/NotoNastaliqUrdu-Regular.ttf') format('truetype');
+}
+
+#idheader{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    direction: ltr;
+    font-size: clamp(7px, 7vw, 10px);
+    text-align: center;
+    color:blue;
+    background-color: lightgreen ;
+    height: fit-content;
+}
+
+#idsubheader{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Nastaliq Urdu';
+    direction: rtl;
+    font-size: clamp(4px, 4vw, 10px);
+    text-align: center;
+    color: black;
+    background-color: aquamarine;
+    height: fit-content;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabs ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    height: fit-content;
+}
+
+
+.tabs a:hover {
+  background-color: wheat;
+  color: red;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+
+.tabs li {
+    margin: 2px 25px;
+}
+
+.tabs a {
+    text-decoration: none;
+    font-size: clamp(10px, 3vw, 15px);
+    color: blue;
+}
+
+
+
+.tabs a.active {
+    color: #23527c;
+    border: 2px solid green;
+    background-color: yellow;
+    border-radius: 50px;
+    color: red;
+}
+
+
+
+#home-content{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+    height: 90%;
+}
+
+#question{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: clamp(10px, 10vmin, 16px);
+}
+
+
+#score{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-style: italic;
+    color: magenta;
+}
+
+#options li{
+    list-style-type: none;
+    margin-bottom: 5%;
+    font-size:1em;
+}
+
+label{
+    border: 1px solid black;
+    background-color: lightgray;
+    padding: 1%;
+}
+
+label:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  padding: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  color: yellow;
+  background-color: #04AA6D;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px #999;
+}
+
+#idsubmit:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(-5px);
+}
+
+
+
+
+
+#download-content{
+    border: 1px solid green;
+    background-color: wheat;
+    height: 84vh;
+}
+
+#idraay{
+    color: red;
+    text-align: center;
+}
+
+#download-content a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+#contact-content{
+    border: 1px solid black;
+    background-color: #999;
+    height: 84vh;
+}
+
+#contact-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 2em;
+}
+
+
+
+
+
