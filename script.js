@@ -1,6 +1,49 @@
 // Step1: Define quizData
 
 const quizData = [
+    {
+        question: " In which mountain range is Mount Everest located? \n ماؤنٹ ایورسٹ کس پہاڑی سلسلے میں واقع ہے؟ ",
+        options: [" Karakoram ", " Alps ", " Himalayas ", " Andes "],
+        correct: 2,  
+    },
+    {
+        question: " What is the height of Mount Everest? \n ماؤنٹ ایورسٹ کی اونچائی کتنی ہے؟ ",
+        options: [" 8,611 meters ", " 8,748 meters ", " 8,848.86 meters ", " 9,000 meters "],
+        correct: 2,  
+    },
+
+    {
+        question: " When was Mount Everest first summited? \n ماؤنٹ ایورسٹ پہاڑ کو پہلی بار کب سر کیا گیا؟ ",
+        options: [" 29 May 1950 ", " 29 May 1951 ", " 29 May 1952 ", " 29 May 1953 "],
+        correct: 3,  
+    },
+    {
+        question: " What was John Hunt's role in the 1953 Mount Everest expedition? \n ماؤنٹ ایورسٹ کی مہم 1953 میں جان ہنٹ کا کیا کردار تھا؟ ",
+        options: [" He was the first to summit ", " He was the expedition leader ", " He was the photographer ", " He was the doctor of the team "],
+        correct: 1,  
+    },
+
+    {
+        question: " Who summited Mount Everest first of all on 29 May 1953? \n ماؤنٹ ایورسٹ پہاڑ کو سب سے پہلے 29 مئی 1953 کو کس نے سر کیا؟ ",
+        options: [" John Hunt ", " Reinhold Messner and Peter Habeler ", " Sir Edmund Hillary and Tenzing Norgay ", " Junko Tabei and Tenzing Norgay "],
+        correct: 2,  
+    },
+    {
+        question: " Who was the first woman to summit Mount Everest on 16 May 1975? \n ماؤنٹ ایورسٹ کو سر کرنے والی 16 مئی 1975 کو پہلی خاتون کون تھی ؟ ",
+        options: [" Junko Tabei (Japan) ", " Lhakpa Sherpa ", " Alison Hargreaves ", " Wanda Rutkiewicz "],
+        correct: 0,  
+    },
+    {
+        question: " What is the Tibetan name for Mount Everest? \n ماؤنٹ ایورسٹ کا تبتی نام کیا ہے؟ تبت کے لوگ کس نام سے پکارتے ہیں ؟ ",
+        options: [" Sagarmatha ", " Chomolungma ", " Deodungha ", " Gaurishankar "],
+        correct: 1,  
+    },
+
+    {
+        question: " تاریخ دانوں کا خیال ہے تقریبا 22 کروڑ 50 لاکھ سال قبل ساری خشک زمین ایک براعظم ایک زمین کی صورت میں اکٹھی تھی۔ اس بڑے بر اعظم کا نام کیا؟ ",
+        options: [" Pangaea ", " Gondwana ", " Atlantis ", " Laurasia "],
+        correct: 0,  
+    },
 
     {
         question: " ایک نابینا شخص لوئس بریل نے بریل سسٹم ایجاد کیا جس کی مدد سے اندھے انسان پڑھ لکھ سکتے ہیں۔ بریل سسٹم کب ایجاد ہوا ؟ ",
@@ -10,17 +53,16 @@ const quizData = [
 
 
     {
-        question: " تقریبا چار ہزار سال قبل پہلی کتاب تیار کی گئی۔ کہاں کے لوگوں نے کی ؟ ",
+        question: " تقریبا چار ہزار سال قبل پہلی کاغذ والی کتاب تیار کی گئی۔ کہاں کے لوگوں نے کی ؟ ",
         options: [" مصریوں نے ", " یونانیوں نے ", " چاپانیوں نے ", " افغانیوں نے "],
         correct: 0,  
     },
 
     {
-        question: " امریکہ کا دعویٰ ہے کہ تین امریکی خلا باز اپالو11 کے ذریعے چاند پر اترے۔ کب ؟ ",
+        question: " امریکہ کا دعویٰ ہے کہ تین امریکی خلا باز اپالو 11 کے ذریعے چاند پر اترے۔ کب اترے  ؟ ",
         options: [" 16 July 1969 ", " 16 July 1970 ", " 16 July 1971 ", " 16 July 1972 "],
         correct: 0,  
     },
-
 
     {
         question: " انسانوں اور جانوروں کو کاٹتا ہے ؟ ",
@@ -30,26 +72,26 @@ const quizData = [
 
     {
         question: " مچھر کی کتنی اقسام ہیں؟ ",
-        options: ["3000 سے زائد", "4000 سے زائد", "5000 سے زائد", "6000 سے زائد"],
+        options: [" More than 3000 ", " More than 4000", " More than 5000 ", " More than 6000 "],
         correct: 0,  
     },
 
-    {
-        question: "ٰPresident of UAE is Sheikh Mohamed bin Zayed Al Nahyan. Who is Prime Minister of UAE? 20260130",
-        options: [" Mohammed bin Rashid Al Maktoum", "Mansour bin Zayed Al Nahyan", "Salman bin Abdulaziz Al Saud", "None of These"],
-        correct: 0,  
+   {
+        question: " Dengue fever (Breakbone fever) is spread by the bite of which mosquito? \n ڈینگی بخار کس مچھر کے کاٹنے سے پھیلتا ہے؟ ",
+        options: [" Female Anopheles ", " Male Culex ", " Female Aedes Aegypti ", " Male Aedes "],
+        correct: 2,  
     },
 
     {
-        question: "ٰ امریکہ کے ایگزم بنک نے پاکستان میں ریکوڈک منصوبہ کی فنانسگ مالی معاونت کے لئے منظوری دی ہے۔ ایگزم بنک نے کتنی سرمایہ کاری کی منظوری دی ہے۔ دسمبر 2025 ؟  ",
-        options: ["1.25 Arab Dollar", "2.25 Arab Dollar", "3.25 Arab Dollar", "4.25 Arab Dollar"],
-        correct: 0,  
+        question: " Malaria is spread by the bite of which mosquito? \n ملیریا کس مچھر کے کاتنے سے پھیلتا ہے؟ ",
+        options: [" Aedes Aegypti ", " Culex ", " Female Anopheles ", " Male Anopheles "],
+        correct: 2,  
     },
 
     {
-        question: "ٰٰٰIndonesian President (Prabowo Subianto) visited Pakistan 8-9 December 2025. During his visit, how many agreements were signed between Pakistan and Indonesia?",
+        question: "Indonesian President (Prabowo Subianto) visited Pakistan 8-9 December 2025. During his visit, how many agreements were signed between Pakistan and Indonesia? \n انڈونیشیا کے صدر (پربو سوبیانتو) نے 8-9 دسمبر 2025 کو پاکستان کا دورہ کیا۔ اس دورے کے دوران پاکستان اور انڈونیشیا کے درمیان کتنے معاہدوں پر دستخط ہوئے؟",
         options: ["5", "7", "9", "11"],
-        correct: 1,  
+        correct: 3,
     },
 
     {
@@ -95,21 +137,44 @@ const quizData = [
     },
 
     {
-        question:"پاکستان کا موجودہ قرض پروگرام ائی ایم ایف کے ساتھ ستمبر 2024 میں ہوا تھا پہلی قسط ایک ارب ڈالر کی ستمبر 2024 کو پاکستان کو ملی  دوسری قسط مئی 2025 میں پاکستان کو ملی۔ تیسری قسط دسمبر 2025 میں پاکستان کو کتنی ملی؟",
-        options: ["1 Arab 30 Crore dollars", "2 Arab 30 Crore dollars", "3 Arab 30 Crore dollars", "4 Arab 30 Crore dollars"],
+        question: " Pakistan got its first loan from which country? \n پاکستان نے اپنا پہلا قرضہ کس ملک سے لیا تھا؟ ",
+        options: [" USA ", " UK ", " India ", " Saudi Arabia "],
         correct: 0,  
     },
 
     {
-        question: "Kyrgyzstan president came in Pakistan (in Dec 2025) and made 15 agreements with Pakistan. What is his name?",
-        options: ["Emomali Rahmon", "Serdar Berdimuhamedow", "Kassym-Jomart Tokayev", "Sadyr Japarov"],
-        correct: 3,
+        question: " What is name of organization from which Pakistan got its first loan in 1950? \n پاکستان نے 1950 میں کس ادارے سے پہلا قرضہ لیا تھا؟ ",
+        options: [" World Bank ", " IMF ", " Export-Import Bank ", " ADB "],
+        correct: 1,  
+    },
+
+    {
+        question: " How much was Pakistan's first loan from IMF in 1950? \n  پاکستان نے  1950 میں آئی ایم ایف سے کتنا پہلا قرضہ لیا تھا؟",
+        options: [" $3.8 million ", " $10 million ", " $25 million ", " $50 million "],
+        correct: 1,  
+    },
+
+    {
+        question: " What was the purpose of the $10 million loan that Pakistan got from IMF in 1950? \n  پاکستان نے 1950 میں آئی ایم ایف سے جو 10 ملین ڈالر کا قرضہ لیا تھا اس کا مقصد کیا تھا؟ ",
+        options: [" For Railway Development ", " For Balance of Payments ", " For War Expenses ", " For Education "],
+        correct: 1,  
+    },
+
+    {
+        question: " Pakistan got its bilateral loan of $3.8 million from Export-Import Bank of USA in 1951. What was the purpose of this loan? \n پاکستان نے 1951 میں ایکسپورٹ امپورٹ بینک آف یو ایس اے سے 3.8 ملین ڈالر کا دو طرفہ قرضہ لیا۔ اس قرضے کا مقصد کیا تھا؟ ",
+        options: [" For Defense ", " For Balance of Payments ", " For Railway and Development Projects ", " For Education "],
+        correct: 2,  
     },
 
     {
         question: " اسٹیٹ بنک آف پاکستان کے اعداد و شمار کے مطابق دسمبر 2025 میں پاکستان کا مجموعی قرضہ کتنا ھو گیا ھے ؟",
         options: ["46 HAZAR 980 ARAB RUPEES", "56 HAZAR 980 ARAB RUPEES", "66 HAZAR 980 ARAB RUPEES", "76 HAZAR 980 ARAB RUPEES"],
         correct: 3,
+    },
+    {
+        question: " What was Pakistan's total public debt on 31.12.2025? \n   پاکستان کا 31 دسمبر 2025 تک کل قرضہ کتنا تھا؟ ",
+        options: [" $113.069 billion ", " $277.6 billion ", " $286.8 billion ", " $81.3 trillion "],
+        correct: 0,
     },
 
     {
@@ -128,26 +193,40 @@ const quizData = [
         options: ["مر جاتی ھے", "سفید ھو جاتی ھے", "کالی ھو جاتی ھے", "سبز ھو جاتی ھے"],
         correct: 0,
     },
+
+    {
+        question: " On which date did Turkey officially change its name to Türkiye? \n ترکی نے اپنا نام سرکاری طور پر ترکیہ کب تبدیل کیا؟ ",
+        options: [" 2 June 2022 ", " 2 June 2023 ", " 2 June 2024 ", " 2 June 2025 "],
+        correct: 0,  
+    },
+
     {
         question: "In November 2025, pilotless fighter jet name (Bayraktar Kizilelma) successfully destroyed a high-speed target drone. Kizilelma is of which country?",
-        options: ["USA", "Turkia", "Iran", "China"],
+        options: ["USA", "Turkiye", "Iran", "China"],
         correct: 1,
     },
+    
     {
-        question: "ورلڈ پاور لفٹنگ چیمپین شپ 27 نومبر 2025 سے 30 نومبر 2025 تک یہ عالمی ایونٹ کولمبو میں منعقد ہوا جس میں پاکستان کے نوجوان ایتھلیٹ نے سونے کا تمغہ جیتا ھے ۔اس کا نام کیا ھے؟",
+        question: "Bayraktar Kizilelma is manufactured by which company? ",
+        options: ["Lockheed Martin", "Baykar", "TUSAŞ", "Northrop Grumman"],
+        correct: 1,
+    },
+
+    {
+        question: "At the World Powerlifting Championship held in Colombo from 27 November 2025 to 30 November 2025, which young Pakistani athlete won the Gold Medal? \n ورلڈ پاور لفٹنگ چیمپین شپ جو 27 نومبر 2025 سے 30 نومبر 2025 تک کولمبو میں منعقد ہوئی، اس میں پاکستان کے کس نوجوان ایتھلیٹ نے سونے کا تمغہ جیتا؟",
         options: ["Muhammad Asim Khan", "Ammad Shakeel Butt", "Abdullah Iqbal", "Kashif Rehan"],
         correct: 3,
     },
 
     {
-        question: "ٹی ٹونٹی کرکٹ ورلڈ کپ مینز2026 میں پہلی مرتبہ کس ملک کی ٹیم نے کوالیفائی کیا ؟",
-        options: ["Itly", "Namibia", "Oman", "UAE"],
+        question: "Which country's team qualified for the first time in the T20 Cricket World Cup Men 2026? \n ٹی ٹونٹی کرکٹ ورلڈ کپ مینز 2026 میں پہلی مرتبہ کس ملک کی ٹیم نے کوالیفائی کیا؟",
+        options: ["Italy", "Namibia", "Oman", "UAE"],
         correct: 0,
     },
 
     {
-        question: "ٹی ٹونٹی کرکٹ ورلڈ کپ مینز 2026 سری لنکا اور انڈیا میں کب ؟",
-        options: ["7 Feb 2026 to 8 Mar 2026", "7 March 2026 to 8 April 2026", " 7 April 2026 to 8 May 2026 ", "7 May 2026 to 8 June 2026"],
+        question: "When was T20 Cricket World Cup Men 2026 held in Sri Lanka and India? \n ٹی ٹونٹی کرکٹ ورلڈ کپ مینز 2026 سری لنکا اور انڈیا میں کب ہوگا؟",
+        options: ["7 Feb 2026 to 8 Mar 2026", "7 March 2026 to 8 April 2026", "7 April 2026 to 8 May 2026", "7 May 2026 to 8 June 2026"],
         correct: 0,
     },
     
@@ -156,6 +235,12 @@ const quizData = [
         options: ["10th", "11th", "12th", "13th"],
         correct: 0,
     },
+    {
+        question: "Who won the ICC Men's T20 Cricket World Cup 2026? \n آئی سی مینز ٹی ٹونٹی کرکٹ ورلڈ کپ 2026 کس نے جیتا؟",
+        options: ["India", "New Zealand", "Australia", "England"],
+        correct: 0,
+    },
+
     {
         question: "ٹی ٹونٹی کرکٹ ورلڈ کپ مینز 2024 ویسٹ انڈیز اور امریکہ میں کھیلا گیا تھا۔انڈیا فائنل جیتا تھا۔ رنر اپ کون سا ملک تھا؟",
         options: ["South Africa", "Pakistan", "Afghanistan", "None of These"],
@@ -265,11 +350,42 @@ const quizData = [
         options: ["100 feet", "200 feet", "300 feet", "400 feet" ],
         correct: 2,
     },
+    {
+        question: "From which lake does the White Nile (3700KM) originate? \n وائٹ نیل کس جھیل سے نکلتا ہے؟",
+        options: ["Lake Tana", "Lake Victoria near Jinja, Uganda", "Lake Baikal", "Lake Superior"],
+        correct: 1,
+    },
+    {
+        question: "From which lake does the Blue Nile (1450KM) originate? \n بلیو نیل کس جھیل سے نکلتا ہے؟",
+        options: ["Lake Victoria", "Lake Tana, Ethiopia", "Lake Baikal", "Lake Superior"],
+        correct: 1,
+    },
+    {
+        question: "Which two rivers join together to form the River Nile at city Khartoum in Sudan? \n شہر خرطوم ملک سوڈان میں کون سے دو دریا مل کر دریاۓ نیل بناتے ہیں؟",
+        options: ["Indus and Ravi", "White Nile and Blue Nile", "Tigris and Euphrates", "Amazon and Orinoco"],
+        correct: 1,
+    },
 
     {
-        question: "Which river is the longest river of the world?",
+        question: "The River Nile originates from which two main lakes? \n دریاۓ نیل کن دو بڑی جھیلوں سے نکلتا ہے؟",
+        options: ["Lake Victoria and Lake Tana", "Lake Superior and Lake Michigan", "Lake Baikal and Lake Caspian", "Lake Manasarovar and Lake Dal"],
+        correct: 0,
+    },
+
+    {
+        question: "Which river is the longest river of the world? \n دنیا کا سب سے لمبا دریا کون سا ہے؟",
         options: ["River Nile", "River Ravi", "River Indus", "None of these"],
         correct: 0,
+    },
+    {
+        question: "How long is the River Nile? \n دریاۓ نیل کی لمبائی تقریباً کتنی ہے؟",
+        options: ["4,500 km", "5,200 km", "6,650 km", "7,800 km"],
+        correct: 2,
+    },
+    {
+        question: "The River Nile falls into which sea? \n دریاۓ نیل کس سمندر میں گرتا ہے؟",
+        options: ["Red Sea", "Mediterranean Sea", "Arabian Sea", "Caspian Sea"],
+        correct: 1,
     },
 
 ];
