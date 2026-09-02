@@ -51,6 +51,23 @@ const quizData = [
         correct: 2,  
     },
 
+    {
+    question: "Who invented paper first in the world? \n دنیا میں سب سے پہلے کاغذ کس نے ایجاد کیا؟",
+    options: ["Tsai Lun / Cai Lun", "Johannes Gutenberg", "Louis Braille", "Thomas Edison"],
+    correct: 0,
+    },
+
+    {
+    question: "When did Tsai Lun / Cai Lun invent paper? \n کاغذ کب ایجاد کیا؟",
+    options: ["105 AD", "205 AD", "305 AD", "405 AD"],
+    correct: 0,
+    },
+
+    {
+    question: "Tsai Lun / Cai Lun belonged to which country? \n  تعلق کس ملک سے تھا؟",
+    options: ["China", "Japan", "Egypt", "India"],
+    correct: 0,
+    },
 
     {
         question: " تقریبا چار ہزار سال قبل پہلی کاغذ والی کتاب تیار کی گئی۔ کہاں کے لوگوں نے کی ؟ ",
@@ -76,7 +93,7 @@ const quizData = [
         correct: 0,  
     },
 
-   {
+    {
         question: " Dengue fever (Breakbone fever) is spread by the bite of which mosquito? \n ڈینگی بخار کس مچھر کے کاٹنے سے پھیلتا ہے؟ ",
         options: [" Female Anopheles ", " Male Culex ", " Female Aedes Aegypti ", " Male Aedes "],
         correct: 2,  
