@@ -2,6 +2,36 @@
 
 const quizData = [
     {
+    question: "The Nazi Party ruled Germany from which year to which year? \n نازی پارٹی نے جرمنی پر کس سال سے کس سال تک حکومت کی؟",
+    options: ["1923 - 1939", "1933 - 1945", "1918 - 1933", "1945 - 1961"],
+    correct: 1,  
+    },
+    {
+    question: "Who was the leader of Nazi Party in Germany? \n جرمنی میں نازی پارٹی کا رہنما کون تھا؟",
+    options: ["Joseph Stalin", "Winston Churchill", "Adolf Hitler", "Benito Mussolini"],
+    correct: 2,  
+    },
+    {
+    question: "In which year did Adolf Hitler become Chancellor of Germany? \n ایڈولف ہٹلر کس سال جرمنی کا چانسلر بنا؟",
+    options: ["1929", "1933", "1939", "1941"],
+    correct: 1,  
+    }, 
+    {
+    question: "In which political and economical system, STATE is owner of every property? \n کون سے سیاسی اور معاشی نظام میں ریاست ہر چیز کی مالک ہوتی ہے؟",
+    options: [" Capitalism ", " Socialism ", " Communism ", " Democracy "],
+    correct: 2,  
+    },
+    {
+    question: "Communism as a political system was first introduced in Russia following the Bolshevik Revolution in which year? \n سب سے پہلے روس میں بولشویک انقلاب کے بعد کمیونزم بطور سیاسی نظام کس سال متعارف کرایا گیا؟",
+    options: ["1905", "1917", "1922", "1945"],
+    correct: 1,  
+    }, 
+    {
+    question: "Communism was introduced in China in which year? \n چین میں کمیونزم کس سال متعارف کرایا گیا؟",
+    options: ["1917", "1937", "1949", "1966"],
+    correct: 2,  
+    },
+    {
         question: " In which mountain range is Mount Everest located? \n ماؤنٹ ایورسٹ کس پہاڑی سلسلے میں واقع ہے؟ ",
         options: [" Karakoram ", " Alps ", " Himalayas ", " Andes "],
         correct: 2,  
