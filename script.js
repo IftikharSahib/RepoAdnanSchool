@@ -1,6 +1,32 @@
 // Step1: Define quizData
 
 const quizData = [
+
+    {
+    question: "Who was Christopher Columbus? \n کرسٹوفر کولمبس کون تھا؟",
+    options: ["A British Prime Minister", "An Italian explorer who discovered America in 1492", "A Portuguese scientist", "King of Spain"],
+    correct: 1,
+    },
+    {
+    question: "The goal of 1492 expedition of Christopher Columbus was to find a fast western water route from? \n کرسٹوفر کولمبس کی 1492 کی مہم کا مقصد کہاں سے تیز مغربی آبی راستہ تلاش کرنا تھا؟",
+    options: ["America to Europe",  "Europe to Asia (India)", "Spain to Africa", "Portugal to America"],
+    correct: 1,
+    },
+    {
+    question: "Christopher Columbus wanted to go to India but mistakenly reached an Island in 1942 expedition? \n کرسٹوفر کولمبس 1492 کی مہم میں ہندوستان جانا چاہتا تھا لیکن غلطی سے کہاں پہنچ گیا؟",
+    options: ["an Island in the Bahamas", "Hawaii", "Japan", "Australia"],
+    correct: 0,
+    },
+    {
+    question: "Home Rule Movement in India was founded in which year? \n ہندوستان میں ہوم رول تحریک کس سال قائم ہوئی؟",
+    options: ["1885", "1905", "1916", "1780"],
+    correct: 2,  
+    },
+    {
+    question: "Who founded the Home Rule Movement in India? \n ہندوستان میں ہوم رول تحریک کس نے قائم کی؟",
+    options: ["Mahatma Gandhi", "Bal Gangadhar Tilak & Annie Besant", "Jawaharlal Nehru", "Subhash Chandra Bose"],
+    correct: 1,  
+    },
     {
     question: "The Nazi Party ruled Germany from which year to which year? \n نازی پارٹی نے جرمنی پر کس سال سے کس سال تک حکومت کی؟",
     options: ["1923 - 1939", "1933 - 1945", "1918 - 1933", "1945 - 1961"],
