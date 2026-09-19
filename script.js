@@ -1,7 +1,26 @@
 // Step1: Define quizData
 
 const quizData = [
-
+    {
+    question: "What is the capital city name of China? \n چین کے دارالحکومت کا نام کیا ہے؟",
+    options: ["Shanghai", "Beijing", "Hong Kong", "Guangzhou"],
+    correct: 1,
+    },
+    {
+    question: "Who were Ming and Qing in China? \n چین میں منگ اور چنگ کون تھے؟",
+    options: ["Two famous poets", "The last two imperial dynasties", "Two rivers", "Two mountains"],
+    correct: 1,
+    },
+    {
+    question: "The imperial palaces of the Ming and Qing dynasties were called? \n  منگ اور چنگ خاندانوں کے شاہی محلات کو کیا کہا جاتا تھا؟",
+    options: ["Forbidden City", "Summer Palace", "Great Wall", "Temple of Heaven"],
+    correct: 0,
+    },
+    {
+    question: "Forbidden City is within? \n ممنوعہ شہر (فوربڈن سٹی) کہاں واقع ہے؟",
+    options: ["Shanghai", "Beijing (China)", "Hong Kong", "Xi'an"],
+    correct: 1,
+    },
     {
     question: "Who was Christopher Columbus? \n کرسٹوفر کولمبس کون تھا؟",
     options: ["A British Prime Minister", "An Italian explorer who discovered America in 1492", "A Portuguese scientist", "King of Spain"],
@@ -13,8 +32,8 @@ const quizData = [
     correct: 1,
     },
     {
-    question: "Christopher Columbus wanted to go to India but mistakenly reached an Island in 1942 expedition? \n کرسٹوفر کولمبس 1492 کی مہم میں ہندوستان جانا چاہتا تھا لیکن غلطی سے کہاں پہنچ گیا؟",
-    options: ["an Island in the Bahamas", "Hawaii", "Japan", "Australia"],
+    question: "Christopher Columbus wanted to go to India but mistakenly reached an Island in 1992 expedition? \n کرسٹوفر کولمبس 1492 کی مہم میں ہندوستان جانا چاہتا تھا لیکن غلطی سے کہاں پہنچ گیا؟",
+    options: ["an Island in the Bahamas (America)", "Hawaii", "Japan", "Australia"],
     correct: 0,
     },
     {
