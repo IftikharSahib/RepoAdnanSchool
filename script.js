@@ -2,6 +2,11 @@
 
 const quizData = [
     {
+    question: "What is the capital city of Iran? \n ایران کے دارالحکومت کا نام کیا ہے؟",
+    options: ["Tehran", "Isfahan", "Shiraz", "Mashhad"],
+    correct: 0,
+    },
+    {
     question: "What is the capital city name of China? \n چین کے دارالحکومت کا نام کیا ہے؟",
     options: ["Shanghai", "Beijing", "Hong Kong", "Guangzhou"],
     correct: 1,
