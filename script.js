@@ -1,6 +1,27 @@
 // Step1: Define quizData
 
 const quizData = [
+    
+    {
+    question: "The Sun is away from Earth miles? \n سورج زمین سے کتنے میل دور ہے؟",
+    options: ["63 Million Miles", "73 Million Miles", "83 Million Miles", "93 Million Miles"],
+    correct: 3,
+    },
+    {
+    question: "1 mile is equal to how many KM? \n ایک میل کتنے کلومیٹر کے برابر ہے؟",
+    options: ["1.6 KM", "2 KM", "1 KM", "1.2 KM"],
+    correct: 0,
+    },
+    {
+    question: "When is the Sun closest to Earth? \n سورج زمین کے سب سے قریب کب ہوتا ہے؟",
+    options: ["January", "July", "March", "December"],
+    correct: 0,
+    },
+    {
+    question: "When is the Sun farthest from Earth? \n سورج زمین سے سب سے دور کب ہوتا ہے؟",
+    options: ["January", "July", "October", "April"],
+    correct: 1,
+    },
     {
     question: "What is name of capital of Iran? \n ایران کے دارالحکومت کا نام کیا ہے؟",
     options: ["Tehran", "Isfahan", "Shiraz", "Mashhad"],
